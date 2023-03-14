@@ -2,6 +2,9 @@ package com.edu.controller;
 
 import com.edu.pojo.Book;
 import com.edu.service.BookService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/books")
+@Api(tags = "图书管理",description = "")
 public class BookController {
 
     @Autowired
@@ -40,6 +44,8 @@ public class BookController {
         return new Result(code,book,msg);
     }
 
+    @ApiOperation(value = "分页查询")
+    @ApiImplicitParam(name = "", value = "null", required = true, dataType = "")
     @GetMapping
     public Result getAll() {
         List<Book> bookList = bookService.getAll();
