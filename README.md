@@ -29,5 +29,5 @@ java -jar target/springboot_mybatis_05-1.0.0.jar
 
 # 参考资料
 <a href="https://spring.io/projects/spring-boot">SpringBoot官方文档</a>
-<a href="https://spring.io/projects/spring-boot">MyBatis官方文档</a>
-<a href="https://spring.io/projects/spring-boot">Thymeleaf官方文档</a>
+<a href="https://mybatis.org/mybatis-3/">MyBatis官方文档</a>
+<a href="https://www.thymeleaf.org/documentation.html">Thymeleaf官方文档</a>
