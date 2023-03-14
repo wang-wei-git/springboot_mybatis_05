@@ -22,9 +22,7 @@ git clone https://github.com/wwedutop/springboot_mybatis_05.git
 cd springboot_mybatis_05 <br/>
 mvn clean package
 3. 启动项目：
-bash
-Copy code
-java -jar target/springboot_mybatis_05-1.0.0.jar
+java -jar target/springboot_mybatis_05-1.0.0.jar <br/>
 4. 在浏览器中打开 http://localhost:8080 访问应用程序。
 
 # 参考资料
