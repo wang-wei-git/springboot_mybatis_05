@@ -20,11 +20,11 @@ MySQL
 <font>git clone https://github.com/wwedutop/springboot_mybatis_05.git</font> <br/>
 <font>2. 进入项目根目录，使用 Maven 构建项目： </font> <br/>
 <font>cd springboot_mybatis_05 </font> <br/>
-<font>mvn clean package</font>
+<font>mvn clean package</font> <br/>
+<font>3. 启动项目：</font> <br/>
+<font>java -jar target/springboot_mybatis_05-1.0.0.jar </font> <br/>
+<font>4. 在浏览器中打开 http://localhost:8080 访问应用程序。</font> 
 
-3. 启动项目：
-java -jar target/springboot_mybatis_05-1.0.0.jar <br/>
-4. 在浏览器中打开 http://localhost:8080 访问应用程序。
 
 # 参考资料
 <a href="https://spring.io/projects/spring-boot">SpringBoot官方文档</a><br/>
