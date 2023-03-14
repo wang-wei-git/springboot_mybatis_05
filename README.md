@@ -28,6 +28,6 @@ java -jar target/springboot_mybatis_05-1.0.0.jar
 4. 在浏览器中打开 http://localhost:8080 访问应用程序。
 
 # 参考资料
-<a href="https://spring.io/projects/spring-boot">SpringBoot官方文档</a>
-<a href="https://mybatis.org/mybatis-3/">MyBatis官方文档</a>
+<a href="https://spring.io/projects/spring-boot">SpringBoot官方文档</a><br/>
+<a href="https://mybatis.org/mybatis-3/">MyBatis官方文档</a><br/>
 <a href="https://www.thymeleaf.org/documentation.html">Thymeleaf官方文档</a>
