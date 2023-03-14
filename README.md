@@ -16,7 +16,7 @@ MySQL
 配置了数据库连接池和日志。
 
 # 快速开始
-1. 克隆项目到本地：
+<font>1. 克隆项目到本地：</font> <br/>
 <font>git clone https://github.com/wwedutop/springboot_mybatis_05.git</font> <br/>
 <font>2. 进入项目根目录，使用 Maven 构建项目： </font> <br/>
 <font>cd springboot_mybatis_05 </font> <br/>
