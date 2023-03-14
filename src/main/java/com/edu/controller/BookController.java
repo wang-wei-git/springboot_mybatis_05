@@ -45,7 +45,7 @@ public class BookController {
     }
 
     @ApiOperation(value = "分页查询")
-    @ApiImplicitParam(name = "", value = "null", required = true, dataType = "")
+    @ApiImplicitParam(name = "a", value = "null", required = true, dataType = "")
     @GetMapping
     public Result getAll() {
         List<Book> bookList = bookService.getAll();
