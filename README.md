@@ -16,16 +16,12 @@ MySQL
 配置了数据库连接池和日志。
 
 # 快速开始
-克隆项目到本地：
-bash
-Copy code
+1. 克隆项目到本地：
 git clone https://github.com/wwedutop/springboot_mybatis_05.git
-进入项目根目录，使用 Maven 构建项目：
-java
-Copy code
+2. 进入项目根目录，使用 Maven 构建项目：
 cd springboot_mybatis_05
 mvn clean package
-启动项目：
+3. 启动项目：
 bash
 Copy code
 java -jar target/springboot_mybatis_05-1.0.0.jar
