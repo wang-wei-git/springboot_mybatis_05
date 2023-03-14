@@ -19,7 +19,7 @@ MySQL
 1. 克隆项目到本地：
 git clone https://github.com/wwedutop/springboot_mybatis_05.git
 2. 进入项目根目录，使用 Maven 构建项目：
-cd springboot_mybatis_05 <br/>
+<font>cd springboot_mybatis_05 </font> <br/>
 mvn clean package
 3. 启动项目：
 java -jar target/springboot_mybatis_05-1.0.0.jar <br/>
