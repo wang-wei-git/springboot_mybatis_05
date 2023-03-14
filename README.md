@@ -25,8 +25,9 @@ mvn clean package
 bash
 Copy code
 java -jar target/springboot_mybatis_05-1.0.0.jar
-在浏览器中打开 http://localhost:8080 访问应用程序。
-参考资料
-SpringBoot官方文档
-MyBatis官方文档
-Thymeleaf官方文档
+4. 在浏览器中打开 http://localhost:8080 访问应用程序。
+
+# 参考资料
+<a href="https://spring.io/projects/spring-boot">SpringBoot官方文档</a>
+<a href="https://spring.io/projects/spring-boot">MyBatis官方文档</a>
+<a href="https://spring.io/projects/spring-boot">Thymeleaf官方文档</a>
